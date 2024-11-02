@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1440px;
+    background: #FAF4F2;
+    margin: auto;
+    position: relative;
+}
+/*Intro_Section///////////////////////////////////////////*/
+.intro-section{
+    display: flex;
+    gap: 167px;
+}
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    margin: 112px 0 125px 182px;
+}
+.intro-image-container{
+    margin-top: 100px;
+    margin-right: 176px;
+}
+
+.intro-title{
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 7px;
+}
+.resume-container>p{
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+.wrapper-facebook{
+    background-color: #68AAF3;
+    width: 48px;
+    height: 48px;
+}
+.wrapper-twitter{
+    width: 48px;
+    height: 48px;
+    background-color: #E17094;
+}
+.wrapper-instagram{
+    width: 48px;
+    height: 48px;
+    background-color: #728CF7;
+}
+.wrapper-telegram{
+    width: 48px;
+    height: 48px;
+    background-color: #FF9B70;
+}
+.action-buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+.send-request{
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.download-cv{
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/*projects-section///////////////////////////////////*/
+.projects-section{
+    width: 1140px;
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+    margin: 0 150px 125px 150px;
+}
+.info-container{
+    display: flex;
+}
+.info-container>div{
+    margin: 62px 0;
+}
+.img-figures{
+    margin: 93px 32px 97px 32px;
+}
+.info-container>div>h1{
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 16px;
+}
+.info-container>div>h5{
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 19px;
+}
+.info-container>div>h2{
+    color: #F9F9F9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 19px;
+}
+.info-container>div>p{
+    width: 570px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+}
+/*about-section//////////////////////////*/
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 125px;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.wrapper-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.about-section>h1{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 100px;
+}
+.background-img{
+    width: 98px;
+    height: 98px;
+    margin-bottom: 51px;
+}
+.Group{
+    position: absolute;
+    top: 24px;
+}
+.Layer{
+    position: absolute;
+    top: 22px;
+}
+.Handshake{
+    position: absolute;
+    top: 32px;
+}
+.Star{
+    position: absolute;
+    top: 26px;
+}
+.wrapper-skills>h4{
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+.wrapper-skills>p{
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*portfolio-section////////////////////////////*/
+.portfolio-section>h1{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    margin-left: 150px;
+    margin-bottom: 64px;
+}
+.container-images{
+    margin: 0 231px;
+    /*width: 1002px;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+/*feedbacks-section///////////////////*/
+.feedbacks-section{
+    width: 100%;
+    height: 643px;
+    margin-top: 125px;
+    padding-top: 48px;
+    background: #FF7315;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 125px;
+}
+.wrapper-feedbacks{
+    display: flex;
+    gap: 82px;
+    justify-content: center;
+    margin: 111px 150px 185px 150px;
+}
+.feedback-title{
+    margin-top: 48px;
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.first-feedback, .second-feedback{
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+.first-feedback>p{
+    width: 419px;
+    height: 108px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 55px 47px 55px;
+}
+.second-feedback>p{
+    width: 419px;
+    height: 144px;
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 55px 11px 55px;
+}
+/*pricing-section////////////////////////*/
+.prices-title{
+    color:  #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin-bottom: 82px;
+    text-align: center;
+}
+.container-plansPrices{
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+}
+.pricing-card{
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background:  #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    display: flex;
+    flex-direction: column;
+}
+.pricing-title{
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-title>h4{
+    color:  #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+.Price-hour{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 36px 98px 29px 98px;
+
+}
+.Price-hour>h3{
+    color:  #2B2B2B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+.Price-hour>h5{
+    color:  #2B2B2B;
+    font-kerning: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.skills>div{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 17px;
+    margin-left: 48px;
+}
+.skills>div>h6{
+    color:  #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+/*.active{*/
+/*    color:  #222;*/
+/*    font-kerning: none;*/
+/*    font-feature-settings: 'calt' off;*/
+/*    font-size: 14px;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    line-height: 24px;*/
+/*    text-transform: capitalize;*/
+/*}*/
+.none-active{
+    opacity: 0.5;
+}
+
+/*contact-section/////////////////////////*/
+.contact-section{
+    margin: 100px auto 125px auto ;
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+    display: flex;
+    gap: 333px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-section>h2{
+    width: 343px;
+    height: 124px;
+    color: #F9F9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+}
+.btn-contact{
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background:  #F9F9F9;
+    box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+    color:  #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0;
+}
+/*Templates-section//////////////////////////////*/
+.Templates-section>h1{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    margin-left: 150px;
+    margin-bottom: 48px;
+}
+.tips-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.wrapper-tips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+.wrapper-tips>img{
+    margin-top: 15px;
+    margin-bottom: 24px;
+}
+.wrapper-tips>h4{
+    margin-bottom: 12px;
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+.wrapper-tips>p{
+    width: 240px;
+    height: 70px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.footer{
+    margin-top: 125px;
+    width: 1440px;
+    height: 170px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer>h5{
+    color:  #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
